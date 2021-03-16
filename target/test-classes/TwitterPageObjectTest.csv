@@ -1,0 +1,6 @@
+validarLogin,username,password,profile,mensagemLogado,,Duration(ms)
+"",testador131,tubarao1313,Olhar Digital,@testador131,,16211.0
+validarBusca,username,password,profile,mensagemBusca,,Duration(ms)
+"",testador141,tubarao1414,Olhar Digital,@olhardigital,null,23532.0
+validarFollow,username,password,profile,mensagemPerfilSeguido,Duration(ms)
+"",testador131,tubarao1313,Olhar Digital,Following,24842.0

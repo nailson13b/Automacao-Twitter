@@ -1,0 +1,12 @@
+validarLogin, username, password, profile, mensagemLogado,
+            , DigiteUsername2, DigiteSenha, Olhar Digital, @DigiteUsername,
+
+validarBusca, username, password, profile, mensagemBusca,
+            , DigiteUsername1, DigiteSenha, Olhar Digital, @olhardigital
+
+validarFollow, username, password, profile, mensagemPerfilSeguido
+             , DigiteUsername2, DigiteSenha, Olhar Digital, Following
+
+
+
+
