@@ -31,18 +31,19 @@ Abaixo algumas instruçoes para que você possa rodar este código:
   DigiteUsername1: Insira o login do primeiro usuario
 
   DigiteSenha1: Insira a senha do primeiro usuario
-  @DigiteUsername1:  Insira o @ do primeiro usuario
-
-  **validarBusca**
-
-  DigiteUsername2: Insira o login do segundo usuario
-
-  DigiteSenha2: Insira a senha do segundo usuario
-
-  **validarFollow**
-
-  DigiteUsername1: Insira o login do primeiro usuario
-
+  
+@DigiteUsername1:  Insira o @ do primeiro usuario
+  
+**validarBusca**
+  
+DigiteUsername2: Insira o login do segundo usuario
+  
+DigiteSenha2: Insira a senha do segundo usuario
+  
+**validarFollow**
+  
+DigiteUsername1: Insira o login do primeiro usuario
+  
   DigiteSenha1: Insira a senha do primeiro usuario
   
 
