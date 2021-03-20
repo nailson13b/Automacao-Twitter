@@ -17,10 +17,7 @@ public class LoginPage extends BasePage{
     public LoginFormPage clicarLogIn(){
         // Clicar no Link que possui o texto "Log In"
         navegador.findElement(By.linkText("Log in")).click();
-
-
-        String screenshotArquivo = "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\" + Generator.dataHoraParaArquivo() + "clicarLogin.png";
-        Screenshot.tirar(navegador, screenshotArquivo);
+        Screenshot.tirar(navegador, Screenshot.caminho() + Generator.dataHoraParaArquivo() + "clicarLogin.png");
 
         return new LoginFormPage(navegador);
     }

@@ -13,7 +13,9 @@ import java.util.concurrent.TimeUnit;
 public class ExplorePage extends BasePage {
     public ExplorePage(WebDriver navegador) {
         super(navegador);
+
     }
+
 
     public ExplorePage clicarPeople(){
         navegador.findElement(By.xpath("/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[1]/div[2]/nav/div/div[2]/div/div[3]/a/div/span")).click();
@@ -22,16 +24,15 @@ public class ExplorePage extends BasePage {
         WebElement people;
         people = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/section/div/div/div[1]/div/div/div/div[2]/div[1]/div[2]/div/div/span/span")));
 
-        String screenshotArquivo = "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\" + Generator.dataHoraParaArquivo() + "clicarPeople.png";
-        Screenshot.tirar(navegador, screenshotArquivo);
+        Screenshot.tirar(navegador, Screenshot.caminho() + Generator.dataHoraParaArquivo() + "clicarPeople.png");
 
         return this;
     }
     public ExplorePage seguirPerfil(){
         navegador.findElement(By.xpath("/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/section/div/div/div[1]/div/div/div/div[2]/div[1]/div[2]/div/div/span/span")).click();
 
-        String screenshotArquivo = "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\" + Generator.dataHoraParaArquivo() + "seguirPerfil.png";
-        Screenshot.tirar(navegador, screenshotArquivo);
+
+        Screenshot.tirar(navegador, Screenshot.caminho() + Generator.dataHoraParaArquivo() + "seguirPerfil.png");
 
         return this;
     }

@@ -20,5 +20,31 @@ Os testes foram criados usando Selenium WebDriver em Java, JUnit e vale destacar
 
 Abaixo algumas instruçoes para que você possa rodar este código:
 
-- Na pages "LoginPage", "LoginFormPage", "TwitterHomePage" e "ExplorePage" há um comando para tirar prints e gerar evidências. Neste caso, será necessário alterar o caminho "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\" para o caminho da pasta qual você deseja que as prints sejam salvas em seu computador.
-- No arquivo "TwitterPageObjectTest.csv" é necessário substituir os campos "DigiteUsername1" e "DigiteUsername2". Indico a utilização de dois usuários distintos para não impactar algum teste. 
+- Na page **Web** altere o metodo **createChrome** substituindo o caminho **"C:\\\Users\\\User\\\Drivers\\\chromedriver.exe"** para o caminho onde o driver do seu navegador esta localizado.
+
+- Na page **Screenshot** altere o caminho na variavel *screenshotArquivo* **"C:\\\Users\\\User\\\Desktop\\\Selenium\\\Testes\\\PrintScreens\\\Twitter\\\\"** para o caminho da pasta qual você deseja que as evidencias sejam salvas em seu computador.
+
+- No arquivo **TwitterPageObjectTest.csv** é necessário substituir os seguintes campos:
+
+  **validarLogin**
+
+  DigiteUsername1: Insira o login do primeiro usuario
+
+  DigiteSenha1: Insira a senha do primeiro usuario
+  @DigiteUsername1:  Insira o @ do primeiro usuario
+
+  **validarBusca**
+
+  DigiteUsername2: Insira o login do segundo usuario
+
+  DigiteSenha2: Insira a senha do segundo usuario
+
+  **validarFollow**
+
+  DigiteUsername1: Insira o login do primeiro usuario
+
+  DigiteSenha1: Insira a senha do primeiro usuario
+  
+
+
+  Indico a utilização de dois usuários distintos para não impactar algum teste. 

@@ -1,11 +1,11 @@
 validarLogin, username, password, profile, mensagemLogado,
-            , DigiteUsername2, DigiteSenha, Olhar Digital, @DigiteUsername,
+            , DigiteUsername1, DigiteSenha1, Olhar Digital, @DigiteUsername1,
 
 validarBusca, username, password, profile, mensagemBusca,
-            , DigiteUsername1, DigiteSenha, Olhar Digital, @olhardigital
+            , DigiteUsername2, DigiteSenha2, Olhar Digital, @olhardigital
 
 validarFollow, username, password, profile, mensagemPerfilSeguido
-             , DigiteUsername2, DigiteSenha, Olhar Digital, Following
+             , DigiteUsername1, DigiteSenha1, Olhar Digital, Following
 
 
 

@@ -21,8 +21,7 @@ public class TwitterHomePage extends BasePage {
         WebDriverWait wait = new WebDriverWait(navegador, 5);
         WebElement olharDigital;
         olharDigital = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/section/div/div/div[3]/div/div/div/div[2]/div[1]/div[1]/a/div/div[1]/div[1]/span/span")));
-        String screenshotArquivo = "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\" + Generator.dataHoraParaArquivo() + "buscarNaSearchBar.png";
-        Screenshot.tirar(navegador, screenshotArquivo);
+        Screenshot.tirar(navegador, Screenshot.caminho() + Generator.dataHoraParaArquivo() + "buscarNaSearchBar.png");
 
         return new ExplorePage(navegador);
     }

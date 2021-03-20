@@ -17,16 +17,13 @@ public class LoginFormPage extends BasePage {
 
     public LoginFormPage digitarUsername(String username){
         navegador.findElement(By.xpath("/html/body/div/div/div/div[2]/main/div/div/div[2]/form/div/div[1]/label/div/div[2]/div/input")).sendKeys(username);
-        String screenshotArquivo = "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\" + Generator.dataHoraParaArquivo() + "digitarUsername.png";
-        Screenshot.tirar(navegador, screenshotArquivo);
+        Screenshot.tirar(navegador, Screenshot.caminho() + Generator.dataHoraParaArquivo() + "digitarUsername.png");
 
         return this;
     }
     public LoginFormPage digitarSenha(String password){
         navegador.findElement(By.xpath("/html/body/div/div/div/div[2]/main/div/div/div[2]/form/div/div[2]/label/div/div[2]/div/input")).sendKeys(password);
-
-        String screenshotArquivo = "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\" + Generator.dataHoraParaArquivo() + "digitarSenha.png";
-        Screenshot.tirar(navegador, screenshotArquivo);
+        Screenshot.tirar(navegador, Screenshot.caminho() + Generator.dataHoraParaArquivo() + "digitarSenha.png");
 
         return this;
     }
@@ -37,8 +34,7 @@ public class LoginFormPage extends BasePage {
         WebElement home;
         home = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div/div/div[2]/header/div/div/div/div[1]/div[2]/nav/a[5]/div/div[2]/span")));
 
-        String screenshotArquivo = "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\" + Generator.dataHoraParaArquivo() + "TwitterHomePage.png";
-        Screenshot.tirar(navegador, screenshotArquivo);
+        Screenshot.tirar(navegador, Screenshot.caminho() + Generator.dataHoraParaArquivo() + "TwitterHomePage.png");
         return new TwitterHomePage(navegador);
     }
 

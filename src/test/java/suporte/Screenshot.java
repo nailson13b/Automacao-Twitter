@@ -15,5 +15,12 @@ public class Screenshot {
         } catch (Exception e){
             System.out.println("Houveram problemas ao copiar o arquivo para a pasta: " + e.getMessage());
         }
+
     }
+
+    public static String caminho(){
+        String screenshotArquivo = "C:\\Users\\User\\Desktop\\Selenium\\Testes\\PrintScreens\\Twitter\\";
+        return screenshotArquivo;
+    }
+
 }
