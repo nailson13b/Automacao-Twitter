@@ -2,6 +2,10 @@
 
 
 
+https://user-images.githubusercontent.com/78864593/120126907-1e251780-c194-11eb-8b2e-f23be2f2bf82.mp4
+
+
+
 Considerando alguns dos principais serviços mais utilizados dentro da rede social Twitter, eu automatizei três testes que realizam as seguintes validações:
 
 
@@ -31,21 +35,21 @@ Abaixo algumas instruçoes para que você possa rodar este código:
   DigiteUsername1: Insira o login do primeiro usuario
 
   DigiteSenha1: Insira a senha do primeiro usuario
-  
+
 @DigiteUsername1:  Insira o @ do primeiro usuario
-  
+
 **validarBusca**
-  
+
 DigiteUsername2: Insira o login do segundo usuario
-  
+
 DigiteSenha2: Insira a senha do segundo usuario
-  
+
 **validarFollow**
-  
+
 DigiteUsername1: Insira o login do primeiro usuario
-  
+
   DigiteSenha1: Insira a senha do primeiro usuario
-  
+
 
 
   Indico a utilização de dois usuários distintos para não impactar algum teste. 
